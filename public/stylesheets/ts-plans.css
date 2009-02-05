@@ -1,0 +1,12 @@
+.app-ts-plans .plans .plan { float:left; text-align:center; border:1px solid gray; }
+.app-ts-plans .plans .clear {clear:both; height:1px; font-size:1px; line-height:1px; margin:0;padding:0;}
+
+.app-ts-plans .plans.count-2 .plan {width:50%;}
+.app-ts-plans .plans.count-3 .plan {width:33.3%;}
+.app-ts-plans .plans.count-4 .plan {width:25%;}
+.app-ts-plans .plans.count-5 .plan {width:20%;}
+.app-ts-plans .plans.count-6 .plan {width:16.6%;}
+.app-ts-plans .plans.count-7 .plan {width:14.2%;}
+.app-ts-plans .plans.count-8 .plan {width:12.5%;}
+.app-ts-plans .plans.count-9 .plan {width:11.1%;}
+.app-ts-plans .plans.count-10 .plan {width:10%;}

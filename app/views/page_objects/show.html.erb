@@ -1,7 +1,7 @@
 <% stylesheets 'ts-plans' %>
 <% # javascripts 'my-tsapp' %>
 
-<div class="plans<%= ' no-plans' if !@page_object.all_plans || @page_object.all_plans.empty? %>">
+<div class="plans <%= !@page_object.all_plans || @page_object.all_plans.empty? ? 'no-plans' : "count-#{@page_object.all_plans.size}"  %>">
   <% if @page_object.all_plans && !@page_object.all_plans.empty? %>
   <% @page_object.all_plans.each do |plan| %>
   <%= render :partial => 'plan', :locals => { :plan => plan }%>
