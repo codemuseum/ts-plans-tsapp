@@ -1,0 +1,10 @@
+<% stylesheets 'ts-plans' %>
+<% # javascripts 'my-tsapp' %>
+
+<div class="plans<%= ' no-plans' if @page_object.all_plans.empty? %>">
+  <% @page_object.all_plans.each do |plan| %>
+  <%= render :partial => 'plan', :locals => { :plan => plan }%>
+  <% end %>
+  <div class="clear"></div>
+</div>
+

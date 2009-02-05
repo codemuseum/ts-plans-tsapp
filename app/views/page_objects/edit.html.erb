@@ -1,0 +1,21 @@
+<% stylesheets 'ts-plans', 'ts-plans-edit' %>
+<% # javascripts 'ts-plans-edit' %>
+
+<div class="editing plans<%= ' no-plans' if @page_object.all_plans.empty? %>">
+  <% @page_object.all_plans.each do |plan| %>
+  <%= render :partial => 'plan', :locals => { :plan => plan }%>
+  <% end %>
+  
+  <div class="clear"></div>
+  
+  <% fields_for_page_object do |f| %>
+  <div class="fields">
+    <%= f.label :update_frequency %>
+    Every <%= f.text_field :update_frequency %> Minutes
+    <br /> 
+    (a value of 0 will try to only call for an update when the data has been updated)<br/>
+  </div>
+  <% end %>
+</div>
+
+
