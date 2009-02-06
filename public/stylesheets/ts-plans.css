@@ -1,4 +1,8 @@
-.app-ts-plans .plans .plan { float:left; text-align:center; border:1px solid gray; }
+.app-ts-plans .plans .plan { float:right; text-align:center; padding:2em 0.5em; }
+.app-ts-plans .plans .plan .name {font-size:2em; font-weight:bold; }
+.app-ts-plans .plans .plan .fee {font-size:1.5em; }
+.app-ts-plans .plans .plan .fee .description {border-top:1px dotted #aaa;}
+
 .app-ts-plans .plans .clear {clear:both; height:1px; font-size:1px; line-height:1px; margin:0;padding:0;}
 
 .app-ts-plans .plans.count-2 .plan {width:50%;}
