@@ -1,5 +1,5 @@
 .app-ts-plans .plans .plan { float:right; text-align:center; padding:2em 0; margin:1em 0; border:1px solid #aaa; border-right:0px; }
-.app-ts-plans .plans .plan.first {border-right:1px;}
+.app-ts-plans .plans .plan.first {border-right:1px solid #aaa;}
 .app-ts-plans .plans .plan .name {font-size:1.5em; font-weight:bold; }
 .app-ts-plans .plans .plan .fee {font-size:1.2em; }
 .app-ts-plans .plans .plan .description {border-top:1px dotted #aaa; margin-top:0.5em; padding-top:0.5em;}
