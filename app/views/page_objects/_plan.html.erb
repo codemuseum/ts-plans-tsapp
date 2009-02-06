@@ -2,5 +2,5 @@
   <div class="name"><%=h plan.name rescue 'Unknown' %></div>
   <div class="fee"><%=h plan.fee.gsub(/\.00/, '') rescue 'Unknown' %></div>
   <% if plan.respond_to?(:picture) %><div class="img"><%=image_tag plan.picture %></div><% end%>
-  <div class="description"><%=h plan.description  rescue 'Unknown' %></div>
+  <div class="description"><%= plan.description  rescue 'Unknown' %></div>
 </div>
