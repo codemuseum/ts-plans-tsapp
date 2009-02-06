@@ -4,7 +4,7 @@
 <div class="plans <%= !@page_object.all_plans || @page_object.all_plans.empty? ? 'no-plans' : "count-#{@page_object.all_plans.size}"  %>">
   <% if @page_object.all_plans && !@page_object.all_plans.empty? %>
   <% @page_object.all_plans.each do |plan| %>
-  <%= render :partial => 'plan', :locals => { :plan => plan, :first? => plan == @page_object.all_plans[0] }%>
+  <%= render :partial => 'plan', :locals => { :plan => plan, :first => plan == @page_object.all_plans[0] }%>
   <% end %>
   <% end %>
   <div class="clear"></div>
