@@ -1,0 +1,12 @@
+development:
+  api_key: ed09c3d04a852abfa83943c8edfa4434a17fd41b
+  secret_key: 6a121ce5eed42773fe272bcde28b785cfdc2feb7
+
+test:
+  api_key: provided by thrivesmartdev.com
+  secret_key: provided by thrivesmartdev.com
+
+production:
+  api_key: provided by thrivesmarthq.com
+  secret_key: provided by thrivesmarthq.com
+
